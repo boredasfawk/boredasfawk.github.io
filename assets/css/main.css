@@ -3675,7 +3675,7 @@ body.subpage {
   #header {
     min-width: 320px;
     top: 0;
-    font-size: 0.9em;
+    font-size: 0.75rem;
     background: rgba(0, 0, 0, 0.9);
   }
 }
@@ -3991,7 +3991,7 @@ body.subpage {
 
 @media screen and (max-width: 980px) {
   #banner {
-    font-size: 0.85em;
+    font-size: 0.75rem;
   }
 
   #banner br {
@@ -4011,13 +4011,39 @@ body.subpage {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #banner h1 {
-    font-size: 4em;
+    display: none;
   }
-
   #banner .more {
     display: none;
+  }
+  #banner.header-banner {
+    background-position: center 3vh;
+  }
+
+  .box.music {
+    padding: 0;
+  }
+
+  div.content > iframe {
+    width: 88vw;
+  }
+
+  .post .button {
+    width: 45vw;
+  }
+
+  .box.photo {
+    padding: 0;
+  }
+  .box.photo > :last-child {
+    bottom: 0;
+  }
+
+  .image-grid .image img {
+    width: 70vw;
+    margin: 0 auto;
   }
 }
 
@@ -4373,10 +4399,6 @@ body.is-loading #banner:before {
 
   .post .more {
     display: none;
-  }
-
-  .post .button {
-    width: 100%;
   }
 }
 
