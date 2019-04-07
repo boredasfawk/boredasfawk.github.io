@@ -3806,6 +3806,11 @@ body.subpage {
 #banner.header-banner {
   background-position: center -54vh;
 }
+@media (max-width: 780px) {
+  #banner.header-banner {
+    background-position: inherit;
+  }
+}
 #four {
   background-position: initial;
 }
