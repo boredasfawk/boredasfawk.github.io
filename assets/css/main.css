@@ -3804,7 +3804,7 @@ body.subpage {
 
 /* Banner */
 #banner.header-banner {
-  background-position: center -54vh;
+  background-position: center;
 }
 @media (max-width: 780px) {
   #banner.header-banner {
