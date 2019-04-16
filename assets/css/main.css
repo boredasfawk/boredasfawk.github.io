@@ -327,7 +327,7 @@ body {
   }
 }
 
-iframe {
+/* iframe {
   position: absolute;
   height: 185vh;
   width: 254vw;
@@ -337,7 +337,7 @@ iframe {
   right: 0;
   bottom: 0;
   margin: 0 auto;
-}
+} */
 
 /* Grid */
 
@@ -4077,9 +4077,9 @@ body.subpage {
     padding: 0;
   }
 
-  div.content > iframe {
+  /* div.content > iframe {
     width: 88vw;
-  }
+  } */
 
   .post .button {
     width: 45vw;
