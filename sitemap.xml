@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"> 
+  <url>
+    <loc>http://www.jackiemackshow.com/index.html</loc>
+    <lastmod>2019-04-29T11:30:00Z</lastmod>
+  </url>
+   
+  <url>
+    <loc>http://www.jackiemackshow.com/index.html</loc>
+      <video:video>            
+        <video:thumbnail_loc>http://www.jackiemackshow.com/images/jFace.jpg
+        </video:thumbnail_loc>
+        <video:title>Girl Like Me</video:title>
+        <video:description>The Jack Mack Show</video:description>    
+        <video:content_loc>http://www.jackiemackshow.com/index.html/videos/clip.mp4</video:content_loc>
+      </video:video>
+  </url>
+</urlset>
